@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="Sample.ForecastUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sample"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid x:Name="ForecastUC1">
+        <Image x:Name="picWeatherIcon" HorizontalAlignment="Left" Height="61" Margin="10,10,0,0" VerticalAlignment="Top" Width="61"/>
+        <TextBlock x:Name="labDT" HorizontalAlignment="Left" Margin="83,10,0,0" TextWrapping="Wrap" Text="Day" VerticalAlignment="Top"/>
+        <TextBlock x:Name="labMainWeather" HorizontalAlignment="Left" Margin="83,31,0,0" TextWrapping="Wrap" Text="Weather" VerticalAlignment="Top"/>
+        <TextBlock x:Name="labWeatherDescription" HorizontalAlignment="Left" Margin="83,52,0,0" TextWrapping="Wrap" Text="Description" VerticalAlignment="Top"/>
+
+    </Grid>
+</UserControl>
